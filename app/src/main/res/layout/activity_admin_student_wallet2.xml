@@ -4,45 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AdminHomepage">
+    tools:context=".admin_student_wallet">
 
     <Button
-        android:id="@+id/aHomePageBackButton"
+        android:id="@+id/studentprofile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Back To Login"
+        android:text="Back to Student"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.002" />
+        app:layout_constraintVertical_bias="0.0" />
 
-
-    <TextView
-        android:id="@+id/adminHomePage"
-        android:layout_width="164dp"
-        android:layout_height="39dp"
-        android:text="ADMIN HOMEPAGE"
-        android:textColor="#3F51B5"
-        android:textSize="16sp"
-        android:textStyle="bold"
+    <Button
+        android:id="@+id/wallet_notification2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Notification"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.328" />
+        app:layout_constraintVertical_bias="0.565" />
 
-    <Button
-        android:id="@+id/aManageButton"
-        android:layout_width="195dp"
-        android:layout_height="71dp"
-        android:text="MANAGE"
+    <TextView
+        android:id="@+id/student_wallet_balance"
+        android:layout_width="182dp"
+        android:layout_height="92dp"
+        android:text="Balance:"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.528" />
-
+        app:layout_constraintVertical_bias="0.394" />
 </androidx.constraintlayout.widget.ConstraintLayout>

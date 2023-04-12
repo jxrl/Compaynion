@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AdminActivateDeactivate">
+    tools:context=".Admin_recharge">
 
     <Button
-        android:id="@+id/backadminhomepageactivate"
+        android:id="@+id/admin_studentpage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Back To Homepage"
@@ -19,54 +19,42 @@
         app:layout_constraintVertical_bias="0.002" />
 
     <Button
-        android:id="@+id/Adminactivate"
+        android:id="@+id/sucessfulrecharge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Activate"
+        android:text="Recharge"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.276" />
-
-    <Button
-        android:id="@+id/admindeactivate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Deactivate"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.604" />
+        app:layout_constraintVertical_bias="0.544" />
 
     <EditText
-        android:id="@+id/deactivate_number"
-        android:layout_width="246dp"
-        android:layout_height="51dp"
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Enter Number to Deactivate "
+        android:text="Enter Amount"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.478" />
+        app:layout_constraintVertical_bias="0.23" />
 
     <EditText
-        android:id="@+id/deactivate_number2"
-        android:layout_width="238dp"
-        android:layout_height="49dp"
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Enter Number to Activate"
+        android:text="Enter RollNumber"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.167" />
-
+        app:layout_constraintVertical_bias="0.389" />
 </androidx.constraintlayout.widget.ConstraintLayout>
