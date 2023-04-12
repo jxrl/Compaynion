@@ -14,7 +14,7 @@ public class AdminHomepage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_admin_homepage);
+        setContentView(R.layout.activity_admin_homepage) ;
 
         manage=(Button) findViewById(R.id.aManageButton);
         aBackLogin=(Button) findViewById(R.id.aHomePageBackButton);
