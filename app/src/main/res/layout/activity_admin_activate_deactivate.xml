@@ -7,7 +7,7 @@
     tools:context=".AdminActivateDeactivate">
 
     <Button
-        android:id="@+id/backadminhomepageactivate"
+        android:id="@+id/backhomepageactivate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Back To Homepage"

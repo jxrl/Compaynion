@@ -13,6 +13,8 @@ public class Admin_student extends AppCompatActivity {
     private Button Recharge1;
     private Button Wallet1;
 
+    private Button Studentback1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +23,7 @@ public class Admin_student extends AppCompatActivity {
         Dues1=(Button) findViewById(R.id.admin_studentdues);
         Recharge1=(Button) findViewById(R.id.admin_studentrecharge);
         Wallet1=(Button) findViewById(R.id.admin_studentwallet);
+        Studentback1=(Button) findViewById(R.id.backadmin_manage_Student);
 
         //intent to open Activate/Deactivate page from Admin_student page on click of button
         ACDC1.setOnClickListener(new View.OnClickListener() {
@@ -55,6 +58,16 @@ public class Admin_student extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i12 = new Intent(Admin_student.this,admin_student_wallet.class);
                 startActivity(i12);
+            }
+        });
+
+
+        //intent to go back to Admin Manage page from Student_Manage  on click of button
+        Studentback1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i18 = new Intent(Admin_student.this,AdminManage.class);
+                startActivity(i18);
             }
         });
     }

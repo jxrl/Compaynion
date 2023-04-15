@@ -31,10 +31,10 @@
         app:layout_constraintVertical_bias="0.143" />
 
     <Button
-        android:id="@+id/canteenprofile_"
+        android:id="@+id/back_Canteen_Manage"
         android:layout_width="114dp"
         android:layout_height="70dp"
-        android:text="Back to Canteen"
+        android:text="Back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
