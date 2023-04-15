@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button stdB1;
     private Button canB2;
-    private Button libB3;
+
     private Button admB4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         stdB1 = (Button) findViewById(R.id.stdButton);
         canB2 = (Button) findViewById(R.id.canButton);
-        libB3 = (Button) findViewById(R.id.libButton);
+
         admB4 = (Button) findViewById(R.id.admButton);
 
         //intent to open student login page on click of button
@@ -41,15 +41,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-        //intent to open library login page on click of button
-        libB3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i3 = new Intent(MainActivity.this,LibraryLogin.class);
-                startActivity(i3);
-            }
-        });
 
 
         //intent to open admin login page on click of button

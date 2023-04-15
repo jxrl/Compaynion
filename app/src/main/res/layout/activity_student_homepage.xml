@@ -7,10 +7,10 @@
     tools:context=".StudentHomepage">
 
     <Button
-        android:id="@+id/sHomePageBackButton"
+        android:id="@+id/backStudentLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Back To Login"
+        android:text="Back To login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.015"
@@ -29,13 +29,13 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintHorizontal_bias="0.554"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.166" />
+        app:layout_constraintVertical_bias="0.193" />
 
     <Button
-        android:id="@+id/sWalletbutton"
+        android:id="@+id/sWalletButton"
         android:layout_width="183dp"
         android:layout_height="60dp"
         android:text="WALLET"
@@ -44,10 +44,10 @@
         app:layout_constraintHorizontal_bias="0.565"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.287" />
+        app:layout_constraintVertical_bias="0.318" />
 
     <Button
-        android:id="@+id/sLibrarybutton"
+        android:id="@+id/sLibraryButton"
         android:layout_width="183dp"
         android:layout_height="60dp"
         android:text="LIBRARY"
@@ -56,10 +56,22 @@
         app:layout_constraintHorizontal_bias="0.565"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.429" />
+        app:layout_constraintVertical_bias="0.485" />
 
     <Button
-        android:id="@+id/sCanteenbutton"
+        android:id="@+id/stManageButton"
+        android:layout_width="182dp"
+        android:layout_height="51dp"
+        android:text="Manage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.986"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002" />
+
+    <Button
+        android:id="@+id/sCanteenButton2"
         android:layout_width="183dp"
         android:layout_height="60dp"
         android:text="CANTEEN"
@@ -68,8 +80,6 @@
         app:layout_constraintHorizontal_bias="0.565"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.579" />
-
-
+        app:layout_constraintVertical_bias="0.67" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

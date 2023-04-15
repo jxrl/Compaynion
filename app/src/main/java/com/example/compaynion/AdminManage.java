@@ -10,21 +10,21 @@ import android.widget.Button;
 public class AdminManage extends AppCompatActivity {
     private Button student1;
     private Button canteen1;
-    private Button library1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_manage);
-        student1=(Button) findViewById(R.id.studentmanage);
-        canteen1=(Button) findViewById(R.id.canteenmanage);
-        library1=(Button) findViewById(R.id.librarymanage);
+        student1=(Button) findViewById(R.id.aStudentManage);
+        canteen1=(Button) findViewById(R.id.aCanteenManage);
+
 
         //intent to open student page from admin manage on click of button
         student1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i6 = new Intent(AdminManage.this, Admin_student.class);
-                startActivity(i6);
+                Intent i16 = new Intent(AdminManage.this, Admin_student.class);
+                startActivity(i16);
             }
         });
 
@@ -32,18 +32,11 @@ public class AdminManage extends AppCompatActivity {
         canteen1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i7 = new Intent(AdminManage.this, admin_canteen.class);
-                startActivity(i7);
+                Intent i17 = new Intent(AdminManage.this, admin_canteen.class);
+                startActivity(i17);
             }
         });
 
-        //intent to open library page from admin manage on click of button
-        library1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i8 = new Intent(AdminManage.this,LibraryHomepage.class);
-                startActivity(i8);
-            }
-        });
+
     }
 }
