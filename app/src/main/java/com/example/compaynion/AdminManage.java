@@ -10,6 +10,7 @@ import android.widget.Button;
 public class AdminManage extends AppCompatActivity {
     private Button student1;
     private Button canteen1;
+    private Button backadmin6 ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +37,15 @@ public class AdminManage extends AppCompatActivity {
                 startActivity(i17);
             }
         });
-
+        backadmin6=(Button) findViewById(R.id.bAdminHomePage);
+        //intent to open Canteen Manage page from admin_Canteen_billing_date page on click of button
+        backadmin6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i18 = new Intent(AdminManage.this,AdminHomepage.class);
+                startActivity(i18);
+            }
+        });
 
     }
 }

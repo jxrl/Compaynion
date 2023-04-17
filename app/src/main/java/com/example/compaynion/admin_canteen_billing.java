@@ -11,13 +11,14 @@ public class admin_canteen_billing extends AppCompatActivity {
 
     private Button Generate1 ;
     private Button Generate2 ;
+    private Button backadmin3 ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_canteen_billing);
         Generate1=(Button) findViewById(R.id.bill_date_generate2);
         Generate2=(Button) findViewById(R.id.bill_month_generate);
-
+        backadmin3=(Button) findViewById(R.id.back_admin_canteen);
         //intent to open Canteen Date Bill generation from admin_Canteen manage on click of button
         Generate1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,6 +34,15 @@ public class admin_canteen_billing extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i17 = new Intent(admin_canteen_billing.this,admin_canteen_billing_month.class);
                 startActivity(i17);
+            }
+        });
+
+        //intent to open Canteen Manage page from admin_Canteen_billing page on click of button
+        backadmin3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i18 = new Intent(admin_canteen_billing.this,admin_canteen.class);
+                startActivity(i18);
             }
         });
     }

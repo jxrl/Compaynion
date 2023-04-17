@@ -21,7 +21,7 @@ public class CanteenBill extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i1 = new Intent(CanteenBill.this,Scanner.class);
+                Intent i1 = new Intent(CanteenBill.this,CanteenHomepage.class);
                 startActivity(i1);
 
             }
