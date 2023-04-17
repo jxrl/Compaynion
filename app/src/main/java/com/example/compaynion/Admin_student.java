@@ -12,6 +12,7 @@ public class Admin_student extends AppCompatActivity {
     private Button Dues1;
     private Button Recharge1;
     private Button Wallet1;
+    private Button backadmin10 ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +22,7 @@ public class Admin_student extends AppCompatActivity {
         Dues1=(Button) findViewById(R.id.admin_studentdues);
         Recharge1=(Button) findViewById(R.id.admin_studentrecharge);
         Wallet1=(Button) findViewById(R.id.admin_studentwallet);
-
+        backadmin10=(Button) findViewById(R.id.backadmin_manage);
         //intent to open Activate/Deactivate page from Admin_student page on click of button
         ACDC1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -55,6 +56,16 @@ public class Admin_student extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i12 = new Intent(Admin_student.this,admin_student_wallet.class);
                 startActivity(i12);
+            }
+        });
+
+
+        //intent to open Admin Manage page from student wallet page on click of button
+        backadmin10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i18 = new Intent(Admin_student.this,AdminManage.class);
+                startActivity(i18);
             }
         });
     }
