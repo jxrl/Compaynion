@@ -15,6 +15,35 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Compaynion"
         tools:targetApi="31">
+
+        <activity
+            android:name=".admin_canteen"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".admin_canteen_billing"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".admin_canteen_billing_date"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".admin_canteen_billing_month"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".AdminManage"
             android:exported="false">
@@ -24,6 +53,20 @@
         </activity>
         <activity
             android:name=".CanteenBill"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CanteenManage"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".StudentManage"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -72,6 +115,27 @@
                 android:value="" />
         </activity>
         <activity
+            android:name=".Admin_recharge"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Admin_student"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".admin_student_wallet"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".CanteenTransaction"
             android:exported="false">
             <meta-data
@@ -87,6 +151,13 @@
         </activity>
         <activity
             android:name=".CanteenLogin"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CanteenMenuItem"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
