@@ -7,10 +7,10 @@
     tools:context=".admin_student_wallet">
 
     <Button
-        android:id="@+id/back_student_wallet"
+        android:id="@+id/studentprofile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Back"
+        android:text="Back to Student"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
